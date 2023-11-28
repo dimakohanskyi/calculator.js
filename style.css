@@ -1,0 +1,80 @@
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/009/273/280/non_2x/concept-of-loneliness-and-disappointment-in-love-sad-man-sitting-element-of-the-picture-is-decorated-by-nasa-free-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+
+.main-content {
+    height: 550px;
+    text-align: center;
+    width: 450px;
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+}
+
+
+.main-content .main_header{
+    color: #1f0336;
+    font-size: 25px;
+    padding: 20px;
+}
+
+
+.int1 input{
+    width: 250px;
+    height: 35px;
+    margin-bottom: 20px;
+    background-color: transparent;
+
+}
+
+.int2 input{
+    width: 250px;
+    height: 35px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+
+.actionBtn button{
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #8a7379;
+}
+
+.actionBtn button:active{
+    background-color: aquamarine;
+}
+
+
+.endSec1 button{
+    border-color: transparent;
+    width: 200px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background-color: #775f7b;
+}
+
+
+.endSec1 button:active{
+    background-color: darkgreen;
+}
+
+.endSec2 h2{
+    color: #f1e3e2;
+}
+
+#result{
+    color: #f1e3e2;
+    font-size: 40px;
+}
